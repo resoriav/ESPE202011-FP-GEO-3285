@@ -81,7 +81,7 @@ public class HM10 {
     System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="); 
     table=input.nextInt (); 
     System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-    System.out.println("Write the las number of the Multiplication Table ");
+    System.out.println("Enter the last number of the Multiplication Table ");
     System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="); 
     stp=input.nextInt ();
       
