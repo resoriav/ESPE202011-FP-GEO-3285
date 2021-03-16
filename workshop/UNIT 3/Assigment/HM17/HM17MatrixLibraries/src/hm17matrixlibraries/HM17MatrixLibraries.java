@@ -7,6 +7,7 @@ package hm17matrixlibraries;
 
 import java.util.Scanner;
 import ec.edu.espe.matrix.MatrixOperation;
+import static ec.edu.espe.matrix.MatrixOperation.*;
 /**
  *
  * @author Rodrigo Soria
@@ -75,7 +76,7 @@ public class HM17MatrixLibraries {
             System.out.println();
         }
 
-        addMatrix(row, column, sum, matrix1, matrix2);
+        MatrixOperation.add (row,column, sum, matrix1, matrix2 );
 
         System.out.println("\n\nThe Sum is :");
 
@@ -92,7 +93,7 @@ public class HM17MatrixLibraries {
 
         sub = new int[row][column];
 
-        substractMatrix(row, column, sub, matrix1, matrix2);
+        MatrixOperation.substract (row,column, sub, matrix1, matrix2 );
 
         System.out.println("\n\n The Substract is :");
 
@@ -108,7 +109,7 @@ public class HM17MatrixLibraries {
          System.out.println("Matrix Multiplication ");
         mult = new int[row][column];
 
-        multiplicateMatrix(row, column, mult, matrix1, matrix2);
+        multiply(row, column, mult, matrix1, matrix2);
 
         System.out.println("\n\n The Multiplication  is :");
 
@@ -125,7 +126,7 @@ public class HM17MatrixLibraries {
 
         dive = new int[row][column];
 
-        divideMatrix(row, column, dive, matrix1, matrix2);
+        divide(row, column, dive, matrix1, matrix2);
 
         System.out.println("\n\n The Division is :");
 
